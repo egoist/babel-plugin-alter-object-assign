@@ -5,7 +5,7 @@ test('main', () => {
   const { code } = transform(`Object.assign({})`, {
     babelrc: false,
     plugins: [
-      [plugin, 'assign']
+      [plugin, { objectAssign: 'assign' }]
     ]
   })
   expect(code).toMatchSnapshot()

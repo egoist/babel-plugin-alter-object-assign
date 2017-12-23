@@ -17,7 +17,7 @@ With `.babelrc`:
 ```js
 {
   "plugins": [
-    ["alter-object-assign", "myAssign"]
+    ["alter-object-assign", { "objectAssign": "myAssign" }]
   ]
 }
 ```
