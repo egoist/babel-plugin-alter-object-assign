@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-alter-object-assign",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Replace Object.assign with a custom function.",
   "repository": {
     "url": "egoist/babel-plugin-alter-object-assign",
